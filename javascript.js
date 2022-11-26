@@ -93,9 +93,9 @@ function game(){
     let playerPoints = 0;
     let computerPoints = 0;
     for (let i = 0; i < 5; i++){
-        console.log(rounds);
+        
         let gameResult = playRound(choseOne(), getComputerChoice());
-        console.log(gameResult)
+        // console.log(gameResult)
 
         switch (gameResult) {
             case "player":
@@ -110,10 +110,23 @@ function game(){
                 break;
         }
 
-        console.log("Round "+ rounds);
-        console.log("Player: " + playerPoints + " ---- Computer: " + computerPoints);
+        console.log("Round "+ rounds +" results: Player: " + playerPoints + " ---- Computer: " + computerPoints);
         rounds++;
-    }
-}
 
-// game();
+        if (playerPoints == 3){
+            return window.alert("You won 3 rounds and you're the winner!!!")
+        } else if (computerPoints == 3) {
+            return window.alert("Computer won 3 rounds, you lose the game!")
+        }
+    }
+
+    if (playerPoints > computerPoints){
+        return window.alert("You won "+ playerPoints +" rounds and you're the winner!!!")
+    } else if (playerPoints < computerPoints){
+        return window.alert("Computer won "+ computerPoints +" rounds, you lose the game!")
+    } else {
+        return window.alert("It's a tie, nobody won.")
+    }
+
+}
+game();
