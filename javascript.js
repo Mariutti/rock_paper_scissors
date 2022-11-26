@@ -52,7 +52,7 @@ function playRound(playerSelection, computerSelection){
                     return "tie"
                     break;
                 case "scissors":
-                    cconsole.log("You Lose! "+ computerSelection+" beats " + playerSelection +" !");
+                    console.log("You Lose! "+ computerSelection+" beats " + playerSelection +" !");
                     return "computer"
                     break;
             
