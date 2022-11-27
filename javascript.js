@@ -1,6 +1,3 @@
-console.log("Hello World")
-
-
 // creating a function where the computer gets a choice to play the game
 function getComputerChoice(){
     const gameOptions = ["rock", "paper", "scissors"]
