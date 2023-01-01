@@ -1,8 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 70vw;
+    height: 98vh;
+    margin: auto;
+    background-color: lightblue;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.btn-container{
+    padding: 2rem;
+}
+
 button {
-    width: 6rem;
-  }
+    margin: 0.5rem;
+    width: 6.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#placar{
+    display: flex;
+    margin: 1rem;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
   
-  .points {
+.points {
     display: inline-block;
     margin: 0.2rem;
     font-size: 8rem;
@@ -10,5 +39,10 @@ button {
     background-color: #a9a9a9;
     width: 7rem;
     text-align: center;
-  }
-  
+}
+
+@media (min-width: 800px) {
+    .container{
+        width: 50vw;
+    }
+}

@@ -67,7 +67,7 @@ function playRound(playerSelection, computerSelection) {
     (playerSelection == "scissors" && computerSelection == "paper")
   ) {
     paraResult.innerText +=
-      "\nResultado do jogo: You WIN!!! " +
+      "\nYou WIN!!! " +
       playerSelection +
       " beats " +
       computerSelection +
@@ -79,14 +79,14 @@ function playRound(playerSelection, computerSelection) {
     (playerSelection == "scissors" && computerSelection == "rock")
   ) {
     paraResult.innerText +=
-      "\nResultado do jogo: You Lose! " +
+      "\nYou Lose! " +
       computerSelection +
       " beats " +
       playerSelection +
       " !";
     return "computer";
   } else if (playerSelection == computerSelection) {
-    paraResult.innerText += "\nResultado do jogo: It's a tie! Nobody wins!";
+    paraResult.innerText += "\nIt's a tie! Nobody wins!";
     return "tie";
   }
 }

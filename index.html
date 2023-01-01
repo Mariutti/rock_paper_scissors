@@ -8,22 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <button type="button" class="button buttonRock">ROCK</button>
-        <button type="button" class="button buttonPaper">PAPER</button>
-        <button type="button" class="button buttonScissors">SCISSORS</button>
+    <div class="container">
+        <h1>Rock - Paper - Scissors</h1>
+        <div class="btn-container">
+            <button type="button" class="button buttonRock">ROCK</button>
+            <button type="button" class="button buttonPaper">PAPER</button>
+            <button type="button" class="button buttonScissors">SCISSORS</button>
+        </div>
         <h1>Best of 5 GAMES</h1>
+        <div id="placar">
+          <div>
+            <p>Player:</p>
+              <div id="pOnePoints" class='points'>
+                <p></p>
+              </div>
+          </div>
+          <div>
+            <p>Computer:</p>
+              <div id="pTwoPoints" class='points'>
+                <p></p>
+              </div>
+          </div>
+        </div>
         <h2>Results:</h2>
         <p id="results"></p>
         <p id="points"></p>
-        <div id="placar">
-          <div id="pOnePoints" class='points'>
-            <p></p>
-          </div>
-          <div id="pTwoPoints" class='points'>
-            <p></p>
-          </div>
-        </div>
       </div>
     <script src="javascript.js"></script>
 </body>
