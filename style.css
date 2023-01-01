@@ -14,13 +14,13 @@
 }
 
 .btn-container{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 button {
-    margin: 0.5rem;
-    width: 6.5rem;
-    padding: 0.5rem 1rem;
+    /* margin: 0.5rem; */
+    width: 5rem;
+    padding: 0.5rem 0;
 }
 
 #placar{
@@ -44,5 +44,15 @@ button {
 @media (min-width: 800px) {
     .container{
         width: 40vw;
+    }
+    
+    .btn-container{
+        padding: 2rem;
+    }
+
+    button {
+        margin: 0.5rem;
+        width: 6.5rem;
+        padding: 0.5rem 1rem;
     }
 }
