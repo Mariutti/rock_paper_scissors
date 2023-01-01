@@ -43,6 +43,6 @@ button {
 
 @media (min-width: 800px) {
     .container{
-        width: 50vw;
+        width: 40vw;
     }
 }
