@@ -1,0 +1,14 @@
+button {
+    width: 6rem;
+  }
+  
+  .points {
+    display: inline-block;
+    margin: 0.2rem;
+    font-size: 8rem;
+    font-weight: bold;
+    background-color: #a9a9a9;
+    width: 7rem;
+    text-align: center;
+  }
+  
