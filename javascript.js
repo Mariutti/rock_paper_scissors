@@ -12,7 +12,7 @@ pOnePoints.innerText = playerPoints;
 pTwoPoints.innerText = computerPoints;
 
 const paraResult = document.querySelector("#results");
-paraResult.innerText = "Resultado do jogo";
+paraResult.innerText = "Scoreboard";
 
 const paraPoints = document.querySelector("#points");
 
